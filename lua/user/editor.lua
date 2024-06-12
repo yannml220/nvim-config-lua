@@ -10,3 +10,8 @@ vim.opt.cursorline = true
 
 -- Set the clipboard for seamless copy-paste 
 vim.opt.clipboard = "unnamedplus"
+
+-- Set the cursor to a bloc even in insert mode 
+
+vim.opt.guicursor = "n-v-c:block-Cursor/lCursor,"
+
