@@ -182,6 +182,16 @@ vim.api.nvim_set_keymap('n', 'vt<A-i>', 'vt8', { noremap = true })
 vim.api.nvim_set_keymap('n', 'vt<A-o>', 'vt9', { noremap = true })
 vim.api.nvim_set_keymap('n', 'vt<A-p>', 'vt0', { noremap = true })
 
+vim.api.nvim_set_keymap('n', 'r<A-a>', 'r1', { noremap = true })
+vim.api.nvim_set_keymap('n', 'r<A-z>', 'r2', { noremap = true })
+vim.api.nvim_set_keymap('n', 'r<A-e>', 'r3', { noremap = true })
+vim.api.nvim_set_keymap('n', 'r<A-r>', 'r4', { noremap = true })
+vim.api.nvim_set_keymap('n', 'r<A-t>', 'r5', { noremap = true })
+vim.api.nvim_set_keymap('n', 'r<A-y>', 'r6', { noremap = true })
+vim.api.nvim_set_keymap('n', 'r<A-u>', 'r7', { noremap = true })
+vim.api.nvim_set_keymap('n', 'r<A-i>', 'r8', { noremap = true })
+vim.api.nvim_set_keymap('n', 'r<A-o>', 'r9', { noremap = true })
+vim.api.nvim_set_keymap('n', 'r<A-p>', 'r0', { noremap = true })
 
 
 -- set the { new combinaisons dor f, v , d , c , yi , ya , ci , ca , di , da 
